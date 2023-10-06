@@ -1,0 +1,14 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Online Sneaker Store Reviews Classification</h1>
+            <p>Welcome to our Online Sneaker Store Reviews Classification Tool. Please comment and rate our shoes.</p>
+            <p>Our state-of-the-art algorithm classify the comment with high accuracy, helping us to make informed decisions and improvements.</p>
+            <a href="{% url 'analyze_sentiment' %}" class="btn btn-primary btn-lg btn-block">Start Analyzing</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
